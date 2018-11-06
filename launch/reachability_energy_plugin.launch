@@ -1,0 +1,4 @@
+<launch>
+    <env name="REACHABILITY_CONFIG_DIR" value="$(find mico_reachability_config)/data"  />
+    <node name="mico_reachability_energy_plugin" pkg="mico_reachability_config" type="launch_graspit.sh" output="screen" />
+</launch>
